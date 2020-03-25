@@ -9,7 +9,7 @@ docker pull selenium/standalone-chrome
 docker run -d -p 4444:4444 --net "host" -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:lastest
 
 ## Para executar o container:
-docker run -d -p 4444:4444 --net "host" -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:lastest
+docker run -d -p 4444:4444 --net "host" -v /dev/shm:/dev/shm selenium/standalone-chrome:lastest
 
 ## Exemplo de código python para uso do container:
 ~~~~
