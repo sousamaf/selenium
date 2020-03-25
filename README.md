@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Utilização do Selenium com Docker
 
 Permite a raspagem de dados sem a abertura de navegador em ambiente gráfico.
@@ -28,3 +29,7 @@ browser.get("http://www.google.com")
 # Salva uma imagem da página buscada.
 browser.save_screenshot("google.png")
 ~~~~
+=======
+# selenium
+Utilização do Selenium através de Container Docker.
+>>>>>>> 0d469d781adbb02b033581237f9f202510a413be
