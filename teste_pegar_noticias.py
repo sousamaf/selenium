@@ -14,5 +14,4 @@ html = dados.get_attribute("innerHTML")
 soup = BeautifulSoup(html, "html.parser")
 
 ## Tratar para capturar apenas link e título.
-
 print(soup)
