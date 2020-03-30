@@ -3,13 +3,13 @@
 Permite a raspagem de dados sem a abertura de navegador em ambiente gráfico.
 
 ## Para baixar o container:
-docker pull selenium/standalone-chrome
+docker pull selenium/standalone-chrome:lastest
 
 ## Para executar o container em modo debug:
-docker run -d -p 4444:4444 --net "host" -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:lastest
+docker run -d -p 4444:4444 --net "host" -v /dev/shm:/dev/shm selenium/standalone-chrome-debug
 
 ## Para executar o container:
-docker run -d -p 4444:4444 --net "host" -v /dev/shm:/dev/shm selenium/standalone-chrome:lastest
+docker run -d -p 4444:4444 --net "host" -v /dev/shm:/dev/shm selenium/standalone-chrome
 
 ## Exemplo de código python para uso do container:
 ~~~~
